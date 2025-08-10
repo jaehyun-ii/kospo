@@ -1,0 +1,910 @@
+{
+  "11G_DWATT": {
+    "description": "발전기 출력량(유효전력)",
+    "unit": "MW"
+  },
+  "11G_TNH": {
+    "description": "터빈 회전속도 (Turbine HP shaft speed in)",
+    "unit": "%"
+  },
+  "11G_TTRF1": {
+    "description": "연소 기준 온도",
+    "unit": "°C"
+  },
+  "11G_AFPCS": {
+    "description": "압축기 입구 압력 (Compressor Inlet Pressure Transducers 96CS)",
+    "unit": "mmH2O"
+  },
+  "11G_CTD": {
+    "description": "압축기 출구 온도",
+    "unit": "°C"
+  },
+  "11G_CTDA": {
+    "description": "압축기 출구 온도",
+    "unit": "°C"
+  },
+  "11G_CTIM": {
+    "description": "압축기 입구 온도",
+    "unit": "°C"
+  },
+  "11G_CPR": {
+    "description": "압축비 (Compressor Pressure Ratio)",
+    "unit": "ratio"
+  },
+  "11G_CSGV": {
+    "description": "Inlet Guide Vane 개도 (피드백 값)",
+    "unit": "°"
+  },
+  "11G_CSRPR": {
+    "description": "압축비 (블리드 히트 기준 압축률)",
+    "unit": "%"
+  },
+  "11G_CSRGV": {
+    "description": "Inlet Guide Vane 개도 (레퍼런스 값)",
+    "unit": "°"
+  },
+  "11G_ITDP": {
+    "description": "흡입 공기 습도 (이슬점 온도)",
+    "unit": "°C"
+  },
+  "11G_AFQ": {
+    "description": "압축기 입구 유량",
+    "unit": "kg/s"
+  },
+  "11G_FSGPM1": {
+    "description": "PM1 Gas Control Valve 개도 피드백",
+    "unit": "%"
+  },
+  "11G_FSGPM2": {
+    "description": "PM2 Gas Control Valve 개도 피드백",
+    "unit": "%"
+  },
+  "11G_FSGPM3": {
+    "description": "PM3 Gas Control Valve 개도 피드백",
+    "unit": "%"
+  },
+  "11G_FSGQ": {
+    "description": "Quaternary Control Valve 개도 피드백",
+    "unit": "%"
+  },
+  "11G_FSRG1OUT": {
+    "description": "PM1 Gas Control Valve 개도 레퍼런스",
+    "unit": "%"
+  },
+  "11G_FSRG2OUT": {
+    "description": "PM2 Gas Control Valve 개도 레퍼런스",
+    "unit": "%"
+  },
+  "11G_FSRG3OUT": {
+    "description": "PM3 Gas Control Valve 개도 레퍼런스",
+    "unit": "%"
+  },
+  "11G_FSRG4OUT": {
+    "description": "Quaternary Control Valve 개도 레퍼런스",
+    "unit": "%"
+  },
+  "11G_FPRGOUT": {
+    "description": "Stop Ratio Valve 개도 레퍼런스",
+    "unit": "%"
+  },
+  "11G_FSGR": {
+    "description": "Stop Ratio Valve 개도 피드백",
+    "unit": "%"
+  },
+  "11G_FSR": {
+    "description": "연료량 레퍼런스",
+    "unit": "%"
+  },
+  "11G_FSRN": {
+    "description": "Speed Control 기준 연료량",
+    "unit": "%"
+  },
+  "11G_FSRPM1_PCT": {
+    "description": "PM1 연료 분배 비율",
+    "unit": "%"
+  },
+  "11G_FSRPM2_PCT": {
+    "description": "PM2 연료 분배 비율",
+    "unit": "%"
+  },
+  "11G_FSRPM3_PCT": {
+    "description": "PM3 연료 분배 비율",
+    "unit": "%"
+  },
+  "11G_FSRQT": {
+    "description": "Quaternary 연료 분배 기준값",
+    "unit": "%"
+  },
+  "11G_FSRQT_PCT": {
+    "description": "Quaternary 연료 분배 비율",
+    "unit": "%"
+  },
+  "11G_FSRSD": {
+    "description": "연료 투입량 (종료 시)",
+    "unit": "%"
+  },
+  "11G_FSRSU": {
+    "description": "연료 투입량 (기동 시)",
+    "unit": "%"
+  },
+  "11G_FSRT": {
+    "description": "배기가스 온도 제어용 연료 투입량",
+    "unit": "%"
+  },
+  "11G_FTG": {
+    "description": "연료 온도",
+    "unit": "°C"
+  },
+  "11G_FPRG": {
+    "description": "Gas Ratio Valve 압력 레퍼런스",
+    "unit": "kg/cm²"
+  },
+  "11G_FSR2": {
+    "description": "Fuel Splitter에서 계산된 연료 기준값",
+    "unit": "%"
+  },
+  "11G_A_96KP01_A1": {
+    "description": "Can #1 - Low Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP01_A2": {
+    "description": "Can #1 - Mid Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP01_A3": {
+    "description": "Can #1 - High Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP01_A4": {
+    "description": "Can #1 - Blowout Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP01_A6": {
+    "description": "Can #1 - Screech Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP01_F1": {
+    "description": "Can #1 - Low Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP01_F2": {
+    "description": "Can #1 - Mid Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP01_F3": {
+    "description": "Can #1 - High Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP01_F4": {
+    "description": "Can #1 - Blowout Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP01_F6": {
+    "description": "Can #1 - Screech Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP02_A1": {
+    "description": "Can #2 - Low Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP02_A2": {
+    "description": "Can #2 - Mid Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP02_A3": {
+    "description": "Can #2 - High Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP02_A4": {
+    "description": "Can #2 - Blowout Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP02_A6": {
+    "description": "Can #2 - Screech Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP02_F1": {
+    "description": "Can #2 - Low Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP02_F2": {
+    "description": "Can #2 - Mid Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP02_F3": {
+    "description": "Can #2 - High Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP02_F4": {
+    "description": "Can #2 - Blowout Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP02_F6": {
+    "description": "Can #2 - Screech Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP03_A1": {
+    "description": "Can #3 - Low Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP03_A2": {
+    "description": "Can #3 - Mid Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP03_A3": {
+    "description": "Can #3 - High Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP03_A4": {
+    "description": "Can #3 - Blowout Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP03_A6": {
+    "description": "Can #3 - Screech Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP03_F1": {
+    "description": "Can #3 - Low Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP03_F2": {
+    "description": "Can #3 - Mid Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP03_F3": {
+    "description": "Can #3 - High Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP03_F4": {
+    "description": "Can #3 - Blowout Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP03_F6": {
+    "description": "Can #3 - Screech Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP04_A1": {
+    "description": "Can #4 - Low Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP04_A2": {
+    "description": "Can #4 - Mid Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP04_A3": {
+    "description": "Can #4 - High Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP04_A4": {
+    "description": "Can #4 - Blowout Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP04_A6": {
+    "description": "Can #4 - Screech Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP04_F1": {
+    "description": "Can #4 - Low Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP04_F2": {
+    "description": "Can #4 - Mid Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP04_F3": {
+    "description": "Can #4 - High Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP04_F4": {
+    "description": "Can #4 - Blowout Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP04_F6": {
+    "description": "Can #4 - Screech Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP05_A1": {
+    "description": "Can #5 - Low Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP05_A2": {
+    "description": "Can #5 - Mid Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP05_A3": {
+    "description": "Can #5 - High Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP05_A4": {
+    "description": "Can #5 - Blowout Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP05_A6": {
+    "description": "Can #5 - Screech Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP05_F1": {
+    "description": "Can #5 - Low Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP05_F2": {
+    "description": "Can #5 - Mid Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP05_F3": {
+    "description": "Can #5 - High Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP05_F4": {
+    "description": "Can #5 - Blowout Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP05_F6": {
+    "description": "Can #5 - Screech Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP06_A1": {
+    "description": "Can #6 - Low Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP06_A2": {
+    "description": "Can #6 - Mid Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP06_A3": {
+    "description": "Can #6 - High Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP06_A4": {
+    "description": "Can #6 - Blowout Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP06_A6": {
+    "description": "Can #6 - Screech Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP06_F1": {
+    "description": "Can #6 - Low Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP06_F2": {
+    "description": "Can #6 - Mid Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP06_F3": {
+    "description": "Can #6 - High Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP06_F4": {
+    "description": "Can #6 - Blowout Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP06_F6": {
+    "description": "Can #6 - Screech Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP07_A1": {
+    "description": "Can #7 - Low Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP07_A2": {
+    "description": "Can #7 - Mid Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP07_A3": {
+    "description": "Can #7 - High Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP07_A4": {
+    "description": "Can #7 - Blowout Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP07_A6": {
+    "description": "Can #7 - Screech Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP07_F1": {
+    "description": "Can #7 - Low Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP07_F2": {
+    "description": "Can #7 - Mid Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP07_F3": {
+    "description": "Can #7 - High Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP07_F4": {
+    "description": "Can #7 - Blowout Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP07_F6": {
+    "description": "Can #7 - Screech Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP08_A1": {
+    "description": "Can #8 - Low Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP08_A2": {
+    "description": "Can #8 - Mid Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP08_A3": {
+    "description": "Can #8 - High Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP08_A4": {
+    "description": "Can #8 - Blowout Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP08_A6": {
+    "description": "Can #8 - Screech Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP08_F1": {
+    "description": "Can #8 - Low Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP08_F2": {
+    "description": "Can #8 - Mid Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP08_F3": {
+    "description": "Can #8 - High Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP08_F4": {
+    "description": "Can #8 - Blowout Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP08_F6": {
+    "description": "Can #8 - Screech Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP09_A1": {
+    "description": "Can #9 - Low Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP09_A2": {
+    "description": "Can #9 - Mid Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP09_A3": {
+    "description": "Can #9 - High Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP09_A4": {
+    "description": "Can #9 - Blowout Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP09_A6": {
+    "description": "Can #9 - Screech Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP09_F1": {
+    "description": "Can #9 - Low Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP09_F2": {
+    "description": "Can #9 - Mid Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP09_F3": {
+    "description": "Can #9 - High Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP09_F4": {
+    "description": "Can #9 - Blowout Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP09_F6": {
+    "description": "Can #9 - Screech Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP10_A1": {
+    "description": "Can #10 - Low Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP10_A2": {
+    "description": "Can #10 - Mid Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP10_A3": {
+    "description": "Can #10 - High Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP10_A4": {
+    "description": "Can #10 - Blowout Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP10_A6": {
+    "description": "Can #10 - Screech Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP10_F1": {
+    "description": "Can #10 - Low Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP10_F2": {
+    "description": "Can #10 - Mid Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP10_F3": {
+    "description": "Can #10 - High Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP10_F4": {
+    "description": "Can #10 - Blowout Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP10_F6": {
+    "description": "Can #10 - Screech Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP11_A1": {
+    "description": "Can #11 - Low Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP11_A2": {
+    "description": "Can #11 - Mid Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP11_A3": {
+    "description": "Can #11 - High Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP11_A4": {
+    "description": "Can #11 - Blowout Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP11_A6": {
+    "description": "Can #11 - Screech Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP11_F1": {
+    "description": "Can #11 - Low Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP11_F2": {
+    "description": "Can #11 - Mid Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP11_F3": {
+    "description": "Can #11 - High Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP11_F4": {
+    "description": "Can #11 - Blowout Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP11_F6": {
+    "description": "Can #11 - Screech Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP12_A1": {
+    "description": "Can #12 - Low Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP12_A2": {
+    "description": "Can #12 - Mid Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP12_A3": {
+    "description": "Can #12 - High Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP12_A4": {
+    "description": "Can #12 - Blowout Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP12_A6": {
+    "description": "Can #12 - Screech Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP12_F1": {
+    "description": "Can #12 - Low Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP12_F2": {
+    "description": "Can #12 - Mid Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP12_F3": {
+    "description": "Can #12 - High Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP12_F4": {
+    "description": "Can #12 - Blowout Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP12_F6": {
+    "description": "Can #12 - Screech Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP13_A1": {
+    "description": "Can #13 - Low Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP13_A2": {
+    "description": "Can #13 - Mid Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP13_A3": {
+    "description": "Can #13 - High Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP13_A4": {
+    "description": "Can #13 - Blowout Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP13_A6": {
+    "description": "Can #13 - Screech Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP13_F1": {
+    "description": "Can #13 - Low Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP13_F2": {
+    "description": "Can #13 - Mid Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP13_F3": {
+    "description": "Can #13 - High Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP13_F4": {
+    "description": "Can #13 - Blowout Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP13_F6": {
+    "description": "Can #13 - Screech Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP14_A1": {
+    "description": "Can #14 - Low Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP14_A2": {
+    "description": "Can #14 - Mid Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP14_A3": {
+    "description": "Can #14 - High Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP14_A4": {
+    "description": "Can #14 - Blowout Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP14_A6": {
+    "description": "Can #14 - Screech Band 최대 진폭 값 (Peak Amplitude)",
+    "unit": "psi"
+  },
+  "11G_A_96KP14_F1": {
+    "description": "Can #14 - Low Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP14_F2": {
+    "description": "Can #14 - Mid Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP14_F3": {
+    "description": "Can #14 - High Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP14_F4": {
+    "description": "Can #14 - Blowout Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_A_96KP14_F6": {
+    "description": "Can #14 - Screech Band 최대 진폭 발생 주파수",
+    "unit": "Hz"
+  },
+  "11G_CA_CRT": {
+    "description": "연소 기준 지수 (ARES 기반)",
+    "unit": ""
+  },
+  "11G_FD_INTENS_1": {
+    "description": "Primary 화염 감지기 1번 화염 강도",
+    "unit": "%"
+  },
+  "11G_FD_INTENS_2": {
+    "description": "Primary 화염 감지기 2번 화염 강도",
+    "unit": "%"
+  },
+  "11G_FD_INTENS_3": {
+    "description": "Primary 화염 감지기 3번 화염 강도",
+    "unit": "%"
+  },
+  "11G_FD_INTENS_4": {
+    "description": "Primary 화염 감지기 4번 화염 강도",
+    "unit": "%"
+  },
+  "11G_FPGN01": {
+    "description": "연료가스 매니폴드 차압 트랜스미터 (96GN-1)",
+    "unit": "kg/cm2"
+  },
+  "11G_FPGN02": {
+    "description": "연료가스 매니폴드 차압 트랜스미터 (96GN-2)",
+    "unit": "kg/cm2"
+  },
+  "11G_FPGN03": {
+    "description": "연료가스 매니폴드 차압 트랜스미터 (96GN-3)",
+    "unit": "kg/cm2"
+  },
+  "11G_FPGN04": {
+    "description": "연료가스 매니폴드 차압 트랜스미터 (96GN-4)",
+    "unit": "kg/cm2"
+  },
+  "11G_FPGN1B": {
+    "description": "연료가스 매니폴드 차압 트랜스미터 (96GN-1B)",
+    "unit": "kg/cm2"
+  },
+  "11G_FPGN1C": {
+    "description": "연료가스 매니폴드 차압 트랜스미터 (96GN-1C)",
+    "unit": "kg/cm2"
+  },
+  "11G_FPGN2B": {
+    "description": "연료가스 매니폴드 차압 트랜스미터 (96GN-2B)",
+    "unit": "kg/cm2"
+  },
+  "11G_FPGN2C": {
+    "description": "연료가스 매니폴드 차압 트랜스미터 (96GN-2C)",
+    "unit": "kg/cm2"
+  },
+  "11G_FPGN3B": {
+    "description": "연료가스 매니폴드 차압 트랜스미터 (96GN-3B)",
+    "unit": "kg/cm2"
+  },
+  "11G_FPGN3C": {
+    "description": "연료가스 매니폴드 차압 트랜스미터 (96GN-3C)",
+    "unit": "kg/cm2"
+  },
+  "11G_DUPFLT_DP": {
+    "description": "연료가스 공급 필터 입출구 차압",
+    "unit": "kg/cm2"
+  },
+  "11G_AFPEP": {
+    "description": "배기가스 압력 트랜스미터 96EP-1",
+    "unit": "mmH2O"
+  },
+  "11G_EXHMASS": {
+    "description": "배기가스 유량",
+    "unit": "kg/s"
+  },
+  "11G_TTXM": {
+    "description": "평균 기준으로 보정된 배기가스 온도 중앙값",
+    "unit": "°C"
+  },
+  "11G_TTXSP1": {
+    "description": "배기가스 온도 편차(최고-최저)",
+    "unit": "°C"
+  },
+  "11G_TTXSP2": {
+    "description": "배기가스 온도 편차(최고-2번째 최저)",
+    "unit": "°C"
+  },
+  "11G_TTXSP3": {
+    "description": "배기가스 온도 편차(최고-3번째 최저)",
+    "unit": "°C"
+  },
+  "11G_TTXSP4": {
+    "description": "배기가스 온도 편차(최고-4번째 최저)",
+    "unit": "°C"
+  },
+  "11G_TTXSPL": {
+    "description": "연소 모니터링 허용 편차",
+    "unit": "°C"
+  },
+  "11G_TTXD1_1": {
+    "description": "보정값 적용된 배기온도 센서 1번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_2": {
+    "description": "보정값 적용된 배기온도 센서 2번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_3": {
+    "description": "보정값 적용된 배기온도 센서 3번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_4": {
+    "description": "보정값 적용된 배기온도 센서 4번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_5": {
+    "description": "보정값 적용된 배기온도 센서 5번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_6": {
+    "description": "보정값 적용된 배기온도 센서 6번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_7": {
+    "description": "보정값 적용된 배기온도 센서 7번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_8": {
+    "description": "보정값 적용된 배기온도 센서 8번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_9": {
+    "description": "보정값 적용된 배기온도 센서 9번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_10": {
+    "description": "보정값 적용된 배기온도 센서 10번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_11": {
+    "description": "보정값 적용된 배기온도 센서 11번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_12": {
+    "description": "보정값 적용된 배기온도 센서 12번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_13": {
+    "description": "보정값 적용된 배기온도 센서 13번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_14": {
+    "description": "보정값 적용된 배기온도 센서 14번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_15": {
+    "description": "보정값 적용된 배기온도 센서 15번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_16": {
+    "description": "보정값 적용된 배기온도 센서 16번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_17": {
+    "description": "보정값 적용된 배기온도 센서 17번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_18": {
+    "description": "보정값 적용된 배기온도 센서 18번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_19": {
+    "description": "보정값 적용된 배기온도 센서 19번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_20": {
+    "description": "보정값 적용된 배기온도 센서 20번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_21": {
+    "description": "보정값 적용된 배기온도 센서 21번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_22": {
+    "description": "보정값 적용된 배기온도 센서 22번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_23": {
+    "description": "보정값 적용된 배기온도 센서 23번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_24": {
+    "description": "보정값 적용된 배기온도 센서 24번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_25": {
+    "description": "보정값 적용된 배기온도 센서 25번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_26": {
+    "description": "보정값 적용된 배기온도 센서 26번 측정값",
+    "unit": "°C"
+  },
+  "11G_TTXD1_27": {
+    "description": "보정값 적용된 배기온도 센서 27번 측정값",
+    "unit": "°C"
+  }
+}

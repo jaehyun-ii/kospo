@@ -1,0 +1,130 @@
+{
+  "11G_DWATT": {
+    "description": "발전기 출력량(유효전력)",
+    "unit": "MW"
+  },
+  "11G_TNH": {
+    "description": "터빈 회전속도 (Turbine HP shaft speed in)",
+    "unit": "%"
+  },
+  "11G_TTRF1": {
+    "description": "연소 기준 온도",
+    "unit": "°C"
+  },
+  "11G_BB_MAX": {
+    "description": "최대 베어링 진동",
+    "unit": "mm/s"
+  },
+  "11G_BB1": {
+    "description": "터빈 베어링 진동",
+    "unit": "mm/s"
+  },
+  "11G_BB10": {
+    "description": "발전기 베어링 진동",
+    "unit": "mm/s"
+  },
+  "11G_BB2": {
+    "description": "터빈 베어링 진동",
+    "unit": "mm/s"
+  },
+  "11G_BB4": {
+    "description": "터빈 베어링 진동",
+    "unit": "mm/s"
+  },
+  "11G_BB5": {
+    "description": "터빈 베어링 진동",
+    "unit": "mm/s"
+  },
+  "11G_BB7": {
+    "description": "발전기 베어링 진동",
+    "unit": "mm/s"
+  },
+  "11G_BB8": {
+    "description": "발전기 베어링 진동",
+    "unit": "mm/s"
+  },
+  "11G_BB9": {
+    "description": "발전기 베어링 진동",
+    "unit": "mm/s"
+  },
+  "11G_BPA11": {
+    "description": "축 진동 (가로/세로)",
+    "unit": "mm"
+  },
+  "11G_BPA12": {
+    "description": "축 진동 (가로/세로)",
+    "unit": "mm"
+  },
+  "11G_BTGJ1_1": {
+    "description": "발전기 베어링 메탈 온도",
+    "unit": "°C"
+  },
+  "11G_BTGJ1_2": {
+    "description": "발전기 베어링 메탈 온도",
+    "unit": "°C"
+  },
+  "11G_BTGJ2_1": {
+    "description": "발전기 베어링 메탈 온도",
+    "unit": "°C"
+  },
+  "11G_BTGJ2_2": {
+    "description": "발전기 베어링 메탈 온도",
+    "unit": "°C"
+  },
+  "11G_BTJ1_1": {
+    "description": "터빈 베어링 메탈 온도",
+    "unit": "°C"
+  },
+  "11G_BTJ1_2": {
+    "description": "터빈 베어링 메탈 온도",
+    "unit": "°C"
+  },
+  "11G_BTJ2_1": {
+    "description": "터빈 베어링 메탈 온도",
+    "unit": "°C"
+  },
+  "11G_BTJ2_2": {
+    "description": "터빈 베어링 메탈 온도",
+    "unit": "°C"
+  },
+  "11G_BTTA1_4": {
+    "description": "터빈 트러스트 베어링 메탈 온도",
+    "unit": "°C"
+  },
+  "11G_BTTA1_8": {
+    "description": "터빈 트러스트 베어링 메탈 온도",
+    "unit": "°C"
+  },
+  "11G_BTTI1_4": {
+    "description": "터빈 트러스트 베어링 메탈 온도",
+    "unit": "°C"
+  },
+  "11G_BTTI1_8": {
+    "description": "터빈 트러스트 베어링 메탈 온도",
+    "unit": "°C"
+  },
+  "11G_LOQBPR": {
+    "description": "베어링 리프팅 오일 압력",
+    "unit": "kg/cm2"
+  },
+  "11G_LTB1D": {
+    "description": "1번 저널 베어링 윤활유 드레인라인 온도",
+    "unit": "°C"
+  },
+  "11G_LTB2D": {
+    "description": "2번 저널 베어링 윤활유 드레인라인 온도",
+    "unit": "°C"
+  },
+  "11G_LTBT1D": {
+    "description": "1번 트러스트 베어링 드레인라인 온도",
+    "unit": "°C"
+  },
+  "11G_LTG1D": {
+    "description": "발전기쪽 1번 저널 베어링 드레인라인 온도",
+    "unit": "°C"
+  },
+  "11G_LTG2D": {
+    "description": "발전기쪽 2번 저널 베어링 드레인라인 온도",
+    "unit": "°C"
+  }
+}

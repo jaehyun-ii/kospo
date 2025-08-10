@@ -1,0 +1,40 @@
+{
+  "phases": [
+    {
+      "phase_number": 1,
+      "name": "기동 시작 구간",
+      "description": "기동이 허가되고 보호 신호가 해제된 이후, 연소 모드가 MODE 3에서 MODE 2로 전환되기 전까지의 구간입니다.",
+      "condition": "11G_L1X(기동 허가) = ON, 11G_L4(정지 상태 해제) = ON 상태이며, DLN MODE가 MODE 3 → MODE 2로 전환되기 전까지"
+    },
+    {
+      "phase_number": 2,
+      "name": "터빈 승속 구간",
+      "description": "점화 시퀀스가 시작되어 DLN MODE가 전환된 이후, 터빈이 최대 속도에 도달하여 L3 신호가 꺼질 때까지의 구간입니다.",
+      "condition": "DLN MODE가 MODE 3에서 MODE 2로 전환된 이후부터, 11G_L3(터빈 최대 속도 도달 신호)가 OFF되기 전까지"
+    },
+    {
+      "phase_number": 3,
+      "name": "계통병입 이전 구간",
+      "description": "터빈이 최대 속도에 도달해 L3가 OFF된 이후부터, 발전기 차단기(L52GX)가 투입(ON)되기 전까지의 구간입니다.",
+      "condition": "11G_L3가 ON에서 OFF로 전환된 이후부터, 11G_L52GX(발전기 차단기 상태)가 OFF에서 ON으로 바뀌기 전까지"
+    },
+    {
+      "phase_number": 4,
+      "name": "계통 병입 구간",
+      "description": "발전기가 계통에 병입되어 L52GX가 ON 상태가 된 이후, 출력이 120MW를 초과하기 전까지의 구간입니다.",
+      "condition": "11G_L52GX가 OFF에서 ON으로 전환된 이후부터, 11G_DWATT(출력량)이 120MW를 초과하기 전까지"
+    },
+    {
+      "phase_number": 5,
+      "name": "출력 증발 구간",
+      "description": "출력이 120MW를 초과한 시점부터, 발전기가 계통에서 분리되어 L52GX가 OFF 상태로 전환되기 전까지의 구간입니다.",
+      "condition": "11G_DWATT가 120MW를 초과한 이후부터, 11G_L52GX가 ON에서 OFF로 전환되기 전까지"
+    },
+    {
+      "phase_number": 6,
+      "name": "기동 종료 (계통 병해) 구간",
+      "description": "발전기가 계통에서 분리된 후부터, 보호 신호(L4)가 다시 OFF 되어 기동이 종료되는 시점까지의 구간입니다.",
+      "condition": "11G_L52GX가 ON에서 OFF로 전환된 이후부터, 11G_L4(정지 상태 해제)가 ON에서 OFF로 변경될 때까지"
+    }
+  ]
+}
